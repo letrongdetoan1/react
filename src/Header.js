@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
 
 export default class Header extends Component {
-  render() {
-    return (
-      <header className='header-container'>
-        <h1 className='header-title'>Todo App</h1>
-      </header>
-    )
-  }
+    render() {
+        return (
+            <div className='header-container'>
+                <h1 className='header-title'>TODO APP</h1>
+            </div>
+        )
+    }
 }
